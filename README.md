@@ -1,6 +1,6 @@
 # `Apple Store`
 
-This is an Apple Store website built with React, Vite, TypeScript, Redux Toolkit, and Tailwind CSS. The website allows users to browse and purchase products from a wide selection, and includes authentication for secure login and registration, a profile page for viewing and updating personal information, a cart system for managing items, and a checkout page for completing orders. The backend is powered by eCommerce JS.
+This is an Apple Store website built with React, Vite, TypeScript, Redux Toolkit, and Tailwind CSS. The website allows users to browse and purchase products from a wide selection, and includes authentication for secure login and registration, a profile page for viewing and updating personal information, a cart system for managing items, and a checkout page for completing orders. The backend is powered by Commerce JS.
 
 ### `Features`:
 - Display the latest collection of products on the Home Page
@@ -19,7 +19,7 @@ This is an Apple Store website built with React, Vite, TypeScript, Redux Toolkit
 - Vite-plugin-svgr:  SVGR integrates with Vite for transforming SVGs into React components
 - React-hook-form: Performant, flexible, and extensible forms with easy-to-use validation
 - Lottie-react: A library for rendering Lottie animations in React
-- eCommerce JS: Backend services for the application.
+- Commerce JS: Backend services for the application.
 
 For setup instructions and more details,You can learn more in the [Create Vite App documentation](https://vitejs.dev/guide/).
 
