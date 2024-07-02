@@ -1,0 +1,5 @@
+export { default as ShopCategoriesCheckBoxSkeleton } from './ShopCategoriesCheckBoxSkeleton'
+export { default as ShopCategoriesSkeleton } from './ShopCategoriesSkeleton'
+export { default as ShopProductsSkeleton } from './ShopProductsSkeleton'
+export { default as ProductDetailsSkeleton } from './ProductDetailsSkeleton'
+export { default as ProfileDetalilsSkeleton } from './ProfileDetalilsSkeleton'
