@@ -1,30 +1,26 @@
-# React + TypeScript + Vite
+# `Apple Store`
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is an Apple Store website built with React, Vite, TypeScript, Redux Toolkit, and Tailwind CSS. The website allows users to browse and purchase products from a wide selection, and includes authentication for secure login and registration, a profile page for viewing and updating personal information, a cart system for managing items, and a checkout page for completing orders. The backend is powered by eCommerce JS.
 
-Currently, two official plugins are available:
+### `Features`:
+- Display the latest collection of products on the Home Page
+- Browse products by categories filter
+- User authentication with a secure login and register system
+- Add, view, update, and manage items in the cart
+- Proceed to checkout and complete the order
+- View and update personal information in the user profile
+- Responsive design for optimal viewing experience on different devices
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### `Technologies Used`: 
+- React.js: JavaScript library for building user interfaces
+- TypeScript: A strongly typed programming language that builds on JavaScript
+- Redux Toolkit: A toolset for efficient Redux developmentt
+- Tailwind CSS: Utility-first CSS framework for styling
+- Vite-plugin-svgr:  SVGR integrates with Vite for transforming SVGs into React components
+- React-hook-form: Performant, flexible, and extensible forms with easy-to-use validation
+- Lottie-react: A library for rendering Lottie animations in React
+- eCommerce JS: Backend services for the application.
 
-## Expanding the ESLint configuration
+For setup instructions and more details,You can learn more in the [Create Vite App documentation](https://vitejs.dev/guide/).
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
