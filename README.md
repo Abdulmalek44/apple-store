@@ -21,7 +21,7 @@ This is an Apple Store website built with React, Vite, TypeScript, Redux Toolkit
 - Lottie-react: A library for rendering Lottie animations in React
 - Commerce JS: Backend services for the application.
 
-Project Link: [Apple Store](https://adidad-ecommerce.vercel.app)
+Project Link: [Apple Store](https://apple-srore.netlify.app)
 
 For setup instructions and more details,You can learn more in the [Create Vite App documentation](https://vitejs.dev/guide/).
 
